@@ -9,57 +9,44 @@
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <link rel="shortcut icon" type="/png" href="pp.jpg"/>
     
-    <title>NFSS Election - G.Secretary</title>
+    <title>NFSS Election - President</title>
 </head>
 <body style="font-family: 'Abel';font-size: 22px;">
    
-    <div class="w3-container">
+    <div class="w3-container ">
         <div class="w3-row w3-teal" style="padding:25px">
-            <div class="w3-twothird"><h1>General Secretary</h1></div>
+            <div class="w3-twothird"><h1>President</h1></div>
             <div class="w3-third w3-center"><h2 class="w3-hover-green w3-border w3-large w3-margin-top">Micheal(10704395)</h2> </div>
         </div>
-        <div class="w3-row w3-center" style="margin: 15px 10px;">
-            <div class="w3-third w3-card" style="padding:30px 10px;margin: 10px 10px; width: 350px; height: 450px;">
-                <header class="w3-center w3-teal" style="padding:5px 10px;height: 200px;">
-                      <img src="contactus.jpg" alt="Avatar" style="width:70% ; height: 170px;" class="w3-circle w3-margin-top ">
-                </header>
-                <div>
-                    <p class="w3-center">John Manu</p>
-                    <p class="w3-center">Level 300</p>
-                    <p class="w3-center">General Secretary</p>
-                   <div class="w3-center"> 
-                       <button onclick="vote('John Manu')" class="w3-btn w3-border w3-teal disabled">VOTE</button>
-                   </div>
-                </div>
-                 </div>
+            <div class="w3-row-padding w3-center" style="margin: 15px 10px; ">
+               
+                <div class="w3-half w3-card" style="padding:30px 10px;margin: 10px 10px; width: 350px; height: 450px;">
+                    <header class="w3-center w3-teal" style="padding:5px 10px;height: 200px;">
+                        <img src="contactus.jpg" alt="Avatar" style="width:70% ; height: 170px;" class="w3-circle w3-margin-top ">
+                    </header>
+                    <div>
+                        <p class="w3-center">John Manu</p>
+                        <p class="w3-center">Level 300</p>
+                        <p class="w3-center">President</p>
+                    <div class="w3-center"> 
+                        <button onclick="vote('John Manu')" class="w3-btn w3-border w3-teal disabled">VOTE</button>
+                    </div>
+                    </div>
+                    </div>
 
-                 <div class="w3-third w3-card" style="padding:30px 10px;margin: 10px 10px;  width: 350px; height: 450px;">
+                 <div class="w3-half w3-card" style="padding:30px 10px;margin: 10px 10px;  width: 350px; height: 450px;">
                         <header class="w3-center w3-teal" style="padding:5px 10px;height: 200px;">
                               <img src="contactus.jpg" alt="Avatar" style="width:70% ; height: 170px;" class="w3-circle w3-margin-top ">
                         </header>
                         <div>
                             <p class="w3-center">Mike Asante</p>
                             <p class="w3-center">Level 300</p>
-                            <p class="w3-center">General Secretary</p>
+                            <p class="w3-center">Presidenty</p>
                            <div class="w3-center"> 
                                <button onclick="vote('Mike Asante')" class="w3-btn w3-border w3-teal disabled">VOTE</button>
                            </div>
                         </div>
                          </div>
-
-                         <div class="w3-third w3-card" style="padding:30px 10px;margin: 10px 10px;  width: 350px; height: 450px;">
-                                <header class="w3-center w3-teal" style="padding:5px 10px;height: 200px;">
-                                      <img src="contactus.jpg" alt="Avatar" style="width:70% ; height: 170px;" class="w3-circle w3-margin-top ">
-                                </header>
-                                <div>
-                                    <p class="w3-center">Ann Mensah</p>
-                                    <p class="w3-center">Level 200</p>
-                                    <p class="w3-center">General Secretary</p>
-                                   <div class="w3-center"> 
-                                       <button onclick="vote('Ann Mensah')" class="w3-btn w3-border w3-teal disabled">VOTE</button>
-                                   </div>
-                                </div>
-                                 </div>
                                
                     </div>
      
@@ -73,25 +60,24 @@
             <h2 >Confirm Vote</h2>
           </header>
           <div class="w3-container-padding" style="margin:20px;">
-           <p>Do you accept to vote for <span class="w3-xlarge w3-text-green" id="name"></span> as General Secretary?</p>
+           <p>Do you accept to vote for <span class="w3-xlarge w3-text-green" id="name"></span> as President?</p>
            
           </div>
           <footer class="w3-container w3-center">
-            <a href="vote_pres.html" onclick="confirm()"  class="w3-btn w3-border w3-gray w3-hover-blue" style="margin:20px;">Confirm</a>
+            <a href="thanku.html" onclick="confirm()"  class="w3-btn w3-border w3-gray w3-hover-blue" style="margin:20px;">Confirm</a>
             <button onclick="document.getElementById('cmodal').style.display='none'"  class="w3-btn w3-border w3-gray w3-hover-blue" style="margin:20px;">Decline</button>
         </footer>
         </div>
       </div>
 
       <footer class="w3-container">
-      
+       
         <div class=" w3-container w3-center w3-teal" style="padding: 0px">
             All Rights Reserved<br/>
             <span>Powered by Winteckgh</span><br/>
              <span> Developed by Samjay</span>
           </div>
     </footer>
-
     <script>
         var g ;
         function vote(id){
