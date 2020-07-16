@@ -1,4 +1,4 @@
-#Election web app for Nutrition and Food Science Department (University of Ghana)
+# Election web app for Nutrition and Food Science Department (University of Ghana)
 
 Direct link: https://electiongh.netlify.app/
 
